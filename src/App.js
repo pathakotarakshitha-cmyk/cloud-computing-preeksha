@@ -15,9 +15,12 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn CREATE 
-          add{process.env.REACT_APP_KEY_APPNAME}
+          Learn CREATE add{process.env.REACT_APP_KEY_APPNAME}
         </a>
+        <h1>v~{process.env.REACT_APP_KEY_VERSION}</h1>
+        <h2>secrect key~{process.env.REACT_APP_KEY_SECRETLY}</h2>
+        <h3>manage~{process.env.REACT_APP_KEY_MANAGE}</h3>
+        <h4>control~{process.env.REACT_APP_KEY_CONTROL}</h4>
       </header>
     </div>
   );
