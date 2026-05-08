@@ -15,7 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn CREATE 
+          add{process.env.REACT_APP_KEY_APPNAME}
         </a>
       </header>
     </div>
